@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>Conceptx Restaurant</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+            body{
+                margin: 0;
+                font-family: 'Mulish', sans-serif;
+                font-weight: lighter;
+            }
+            .header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+                background-color:rgb(26, 161, 26);
+                padding: 15px 200px;
+            }
+            .header a{
+                background-color: white;
+                padding: 5px 15px;
+                color: rgb(26, 161, 26);
+                transition-duration: 0.5s;
+                font-weight: bold;
+            }
+            .header a:hover{
+                transform: scale(1.1);
+            }
+            .header h1{
+
+                font-family: 'Mynerve', cursive;
+            }
+            img{
+                width: 550px;
+                border-radius: 15px;
+            }
+            .content{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 140px 0;
+            }
+            .content h1{
+                color: rgb(26, 161, 26);
+                font-size: 70px;
+                font-weight: lighter;
+                transition-duration: 0.5s;
+            }
+            .content h1:hover{
+                letter-spacing: 10px;
+            }
+            .content img{
+                transition-duration: 0.5s;
+            } 
+            .content img:hover{
+                transform: scale(1.1);
+            }
+            .head{
+                text-align: center;
+                background-color:rgb(26, 161, 26);
+                color: white;
+                font-size: 50px;
+                font-weight: lighter;
+                padding: 100px 30px;
+                transition: 0.5s;
+                margin: 0;
+            }
+            .head:hover{
+                letter-spacing: 7px;
+            }
+            .food{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                background-color:rgb(26, 161, 26);
+                padding: 0 100px;
+                gap: 50px;
+                padding-bottom: 130px;
+            }
+            .food img{
+                height: 200px;
+                width: 300px;
+                border-radius: 50px;
+                transition-duration: 0.5s;
+            }
+            .food img:hover{
+                transform: scale(0.9);
+            }
+            .delivery{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 130px 50px;
+            }
+            .delivery h1{
+                color:rgb(26, 161, 26) ;
+                font-size: 50px;
+                font-weight: lighter;
+                text-align: right;
+                transition-duration: 0.5s;
+            }
+            .delivery h1:hover{
+                letter-spacing: 6px;
+            }
+            .delivery img{
+                width: 500px;
+                border-radius: 20px;
+                transition-duration: 0.5s;
+            }
+            .delivery img:hover{
+                transform: scale(1.1);
+            }
+            h2{
+                text-align: center;
+                background-color: rgb(26, 161, 26);
+                margin: 0;
+                padding: 20px 0;
+                color: white;
+                font-weight: bold;
+
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>ConceptX Restaurant</h1>
+            <a href="">Order</a>
+        </div>
+        <div class="content">
+            <h1>ENJOY <br> THE TASTE</h1>
+            <img src="restaurant.jpg" alt="restaurant">
+        </div>
+        <h1 class="head">THE BEST THINGS WE CAN OFFER</h1>
+        <div class="food">
+            <img src="food.jpg" alt="food1">
+            <img src="salad.jpg" alt="salad">
+            <img src="seafood.jpg" alt="seafood">
+            <img src="dessert.jpg" alt="dessert">
+        </div>
+        <div class="delivery">
+            <img src="deli.webp" alt="delivery">
+            <h1>We also have <br> Delivery Service</h1>
+        </div>
+        <h2 clas="end"> Thanks for visiting us</h2>
+    </body>
+</html>
